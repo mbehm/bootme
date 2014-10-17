@@ -1,0 +1,6 @@
+[submodule "packages/accounts-ui-bootstrap-3"]
+	path = packages/accounts-ui-bootstrap-3
+	url = https://github.com/ianmartorell/meteor-accounts-ui-bootstrap-3.git
+[submodule "packages/meteor-accounts-ui-bootstrap-3"]
+	path = packages/meteor-accounts-ui-bootstrap-3
+	url = https://github.com/mbehm/meteor-accounts-ui-bootstrap-3.git

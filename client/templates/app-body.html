@@ -1,0 +1,12 @@
+<template name="appBody">
+	{{> navigation}}
+	<div id="container" class="container">
+		{{#if currentUser}}
+			{{#each thisArray}}
+				{{> yield}}
+			{{/each}}
+		{{else}}
+			{{i18n "users.please_login_or_register"}}
+		{{/if}}
+	</div>
+</template>

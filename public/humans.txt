@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Markus Behm -- Developer -- https://github.com/mbehm
+
+# TECHNOLOGY COLOPHON
+
+	Meteor, Bootstrap3, jQuery
