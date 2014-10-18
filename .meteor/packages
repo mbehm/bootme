@@ -14,4 +14,4 @@ iron:router
 anti:i18n
 reywood:font-awesome-sass
 accounts-github
-
+accounts-google
