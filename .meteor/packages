@@ -1,0 +1,17 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+autopublish
+insecure
+fourseven:scss
+reywood:bootstrap3-sass
+accounts-password
+mbehm:accounts-ui-bootstrap-3
+iron:router
+anti:i18n
+reywood:font-awesome-sass
+accounts-github
+
