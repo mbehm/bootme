@@ -1,4 +1,14 @@
-<template name="navigation">
+<template name="loggedOutNavigation">
+	<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">{{i18n "app.title"}}</a>
+			</div>
+		</div>
+	</div>
+</template>
+
+<template name="loggedInNavigation">
 	<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
@@ -10,26 +20,11 @@
 				</button>
 				<a class="navbar-brand" href="#">{{i18n "app.title"}}</a>
 			</div>
-			{{#if currentUser}}
-			{{> loggedInNavigation}}
-			{{else}}
-			{{> loggedOutNavigation}}
-			{{/if}}
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					{{> loginButtons}}
+				</ul>
+			</div>
 		</div>
-	</div>
-</template>
-
-<template name="loggedOutNavigation">
-	<div class="navbar-collapse collapse">
-		<ul class="nav navbar-nav navbar-right">
-		</ul>
-	</div>
-</template>
-
-<template name="loggedInNavigation">
-	<div class="navbar-collapse collapse">
-		<ul class="nav navbar-nav navbar-right">
-			{{> loginButtons}}
-		</ul>
 	</div>
 </template>
