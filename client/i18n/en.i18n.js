@@ -10,6 +10,11 @@ i18n.map('en', {
 		ok: 'Ok',
 		create: 'Create'
 	},
+	dialog: {
+		confirm: 'Confirm',
+		alert: 'Alert',
+		prompt: 'Prompt'
+	},
 	navigation: {
 		toggle: 'Toggle navigation'
 	},
